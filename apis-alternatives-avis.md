@@ -72,3 +72,4 @@ const response = await fetch(`https://serpapi.com/search?api_key=VOTRE_CLE&q=Les
 | SerpAPI | ⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | **Recommandé** |
 | ScrapingBee | ⭐ | ⭐⭐⭐ | ⭐⭐⭐ | Bonne alternative |
 | Google My Business | ✅ | ⭐⭐⭐⭐⭐ | ⭐⭐ | Solution officielle |
+

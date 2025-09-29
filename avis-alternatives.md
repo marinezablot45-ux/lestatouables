@@ -57,3 +57,4 @@
 
 ## Recommandation
 La **Méthode 1 (Widget Google Maps)** est la plus simple et efficace pour votre cas d'usage.
+

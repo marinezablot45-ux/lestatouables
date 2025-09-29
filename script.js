@@ -500,21 +500,6 @@ function initFlash(){
     });
 }
 
-// Google Reviews functionality using Elfsight widget
-function initReviews() {
-    // Add click tracking for review buttons
-    const reviewButtons = document.querySelectorAll('.btn-google, .reviews-cta .btn');
-    reviewButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            trackClick(e.target, 'review_button_click');
-        });
-    });
-    
-    // Elfsight widget handles everything automatically
-    // No additional JavaScript needed
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     initFlash();
-    initReviews();
 });

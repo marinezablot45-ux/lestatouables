@@ -46,3 +46,4 @@ L'API Google Places a des coûts associés :
 - Puis environ 0.017€ par requête supplémentaire
 
 Pour un site avec peu de trafic, cela reste très abordable.
+

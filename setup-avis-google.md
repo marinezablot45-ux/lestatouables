@@ -50,3 +50,4 @@ Pour un site avec peu de trafic, cela reste très abordable.
 ## Alternative sans API
 
 Si vous ne voulez pas utiliser l'API, la section affichera automatiquement un lien vers votre page Google avec un message d'invitation.
+
