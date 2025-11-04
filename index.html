@@ -502,23 +502,18 @@
     <!-- Avis Google Section -->
     <section id="avis" class="reviews">
         <div class="container">
-            <h2 class="section-title">Avis Clients</h2>
+            <!-- 🔹 Section des avis Google -->
+            <div id="google-reviews" style="max-width:600px;margin:auto;">
+                <p style="text-align:center;">Chargement des avis Google...</p>
+            </div>
             
-            <div class="reviews-content">
-                <div class="reviews-grid" id="google-reviews">
-                    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
-                    <script src="https://elfsightcdn.com/platform.js" async></script>
-                    <div class="elfsight-app-7efff75b-f392-419b-aff2-472c2b24ea67" data-elfsight-app-lazy></div>
-                </div>
-                
-                <div class="reviews-cta">
-                    <h3>Partagez votre expérience</h3>
-                    <p>Votre avis nous aide à améliorer nos services</p>
-                    <a href="https://share.google/93Wv2H993KK030QTM" target="_blank" class="btn btn-primary">
-                        <i class="fas fa-star"></i>
-                        Laisser un avis
-                    </a>
-                </div>
+            <div class="reviews-cta" style="margin-top: 2rem;">
+                <h3>Partagez votre expérience</h3>
+                <p>Votre avis nous aide à améliorer nos services</p>
+                <a href="https://share.google/93Wv2H993KK030QTM" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-star"></i>
+                    Laisser un avis
+                </a>
             </div>
         </div>
     </section>
@@ -610,6 +605,13 @@
 
 
     <script type="module" src="script-firebase.js"></script>
+    
+    <!-- Script pour charger les avis Google -->
+    <script type="module">
+        import { loadGoogleReviews } from './google-reviews.js';
+        loadGoogleReviews();
+    </script>
+    
     <script>
     // Mobile Navigation Toggle
     const hamburger = document.querySelector('.hamburger');
